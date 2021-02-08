@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffc000"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120sp"
+        android:orientation="vertical"
+        app:srcCompat="@drawable/qus77" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="vertical"
+        app:srcCompat="@drawable/qus7" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textSize="20sp"
+        android:orientation="vertical"/>
+
+    <Button
+        android:id="@+id/sevenbtn1"
+        android:layout_width="200sp"
+        android:layout_height="60sp"
+        android:text="보다 길다"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:background="#ffc000"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:onClick="onClick71"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textSize="30sp"
+        android:orientation="vertical"/>
+
+    <Button
+        android:id="@+id/sevenbtn2"
+        android:layout_width="200sp"
+        android:layout_height="60sp"
+        android:text="비슷하다"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:background="#ffc000"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:onClick="onClick72"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textSize="30sp"
+        android:orientation="vertical"/>
+
+    <Button
+        android:id="@+id/sevenbtn3"
+        android:layout_width="200sp"
+        android:layout_height="60sp"
+        android:text="보다 짧다"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:background="#ffc000"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:onClick="onClick73"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textSize="35sp"
+        android:orientation="vertical"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="사진처럼 강아지의 비절을 기준으로 확인해 주세요."
+        android:textSize="15sp"
+        android:textColor="#ff0000"
+        android:textAlignment="center"
+        android:orientation="vertical"/>
+
+</LinearLayout>

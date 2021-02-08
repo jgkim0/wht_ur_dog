@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffc000"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textSize="60sp"
+        android:orientation="vertical"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:orientation="vertical"
+        app:srcCompat="@drawable/qus1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textSize="50sp"
+        android:orientation="vertical"/>
+
+    <Button
+        android:id="@+id/onebtn1"
+        android:layout_width="200sp"
+        android:layout_height="60sp"
+        android:text="小 (10kg 미만)"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:background="#ffc000"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:onClick="onClick11"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textSize="20sp"
+        android:orientation="vertical"/>
+
+    <Button
+        android:id="@+id/onebtn2"
+        android:layout_width="200sp"
+        android:layout_height="60sp"
+        android:text="中 (10kg ~ 24kg)"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:background="#ffc000"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:onClick="onClick12"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textSize="20sp"
+        android:orientation="vertical"/>
+
+    <Button
+        android:id="@+id/onebtn3"
+        android:layout_width="200sp"
+        android:layout_height="60sp"
+        android:text="大 (25kg 이상)"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:background="#ffc000"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:onClick="onClick13"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textSize="20sp"
+        android:orientation="vertical"/>
+
+    <Button
+        android:id="@+id/onebtn4"
+        android:layout_width="200sp"
+        android:layout_height="60sp"
+        android:text="알수없음"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:background="#ffc000"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:onClick="onClick14"/>
+
+</LinearLayout>
